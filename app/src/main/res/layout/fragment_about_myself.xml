@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutMyself">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="About Myself"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/mypic"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Noor-E-Safet Ahmed"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I am very Simple guy but i think i am creative but its only my personal opinion, i Don't know what people say about me. What i know is friends call me some crazy names and also say that i am a crazy person with good Heart. And also i am a little introvert so i Don't talk much, but if someone get close to me i can talk with him all day long. I like To travel but,didn’t see so many places. And like to play but i am not a good player also i love to see movies cartoons and game. I believe one thing is very special in me which is my positiveness i am very positive person i dont hart people’s feelings. And also i did a small Mentoring who are mentally broke up for some reason. And i am little bit lazy and i have some mental power to bring happy face to Everyone's  face. And i am able to handle any situation in cold blood. I think that's enough to introduce My self. Please Forgive my mistakes in the writing. Thanks For reading"
+        android:textColor="@color/black"
+
+        android:textSize="18dp"
+        android:justificationMode="inter_word"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutUniversity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="About My University"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/uni"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Daffodil International University"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Being established in 2002, Daffodil International University has become a prominent private university in Bangladesh. Our 150 Acre campus is full of life and positive energy, fostering education and innovation for more than 20000 students. Here, students are encouraged to ask questions and think, debate and collaborate with professors to take ownership of their learning."
+        android:textColor="@color/black"
+
+        android:textSize="18dp"
+        android:justificationMode="inter_word"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        />
+
+
+</LinearLayout>

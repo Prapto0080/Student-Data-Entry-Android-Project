@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#AAFF47"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Sign In"
+        android:textStyle="bold"
+        android:textSize="38dp"
+        android:layout_marginBottom="22dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/UName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Username "
+        android:layout_marginBottom="22dp"
+        android:textSize="28sp"/>
+    <EditText
+        android:id="@+id/passW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Password "
+        android:layout_marginBottom="12dp"
+        android:textSize="28sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="right"
+        android:paddingEnd="62dp"
+        android:textColor="@android:color/holo_blue_light"
+        android:text="Forgot Password ?"
+        android:textSize="18dp"
+        android:layout_marginBottom="12dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Log in"
+        android:onClick="log_in"
+        android:textSize="22dp"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

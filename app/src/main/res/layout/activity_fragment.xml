@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FragmentActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="Fragment USE"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"
+        android:padding="10dp"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        >
+        <Button
+            android:id="@+id/myselfID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:onClick="buttonFunction"
+            android:text="About Myself"
+            />
+        <Button
+            android:id="@+id/myuniversityID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:onClick="buttonFunction"
+            android:layout_margin="10dp"
+            android:text="My University"
+            />
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/fragmentactivityID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        >
+    </FrameLayout>
+</LinearLayout>
